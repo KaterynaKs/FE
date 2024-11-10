@@ -1,0 +1,64 @@
+// 1. Написать функцию, которая принимает в качестве аргументов два числа и возращает их сумму
+// let sum = 0;
+// sumValue(4, 5);
+// function sumValue(a, b){
+//     sum=a+b;
+//     return sum
+// }
+// console.log(sum);
+
+// 2. Написать функцию, принимающую массив с числами в качестве аргумента и возвращающую новый новый массив 
+// с положительными числами
+// const arr = [3, 5, -36, 9, 0, -24, 100];
+// // const arr2 = 0;
+// function newArr(arr2){
+// return arr2.filter(element=> element >= 0);
+// }
+// console.log(newArr(arr));
+
+// 3. Написать функцию, которая принимает 5 числовых аргументов и возращает самое большое число из них 
+// function newArr(a, b, c, d, f){
+//     return Math.max(a, b, c, d, f);
+// }
+// console.log(newArr(3, 5, 9, 100, 0)); 
+
+// 4. Написать функцию, которая принимает массив с числами и возращает самое большое число
+// const arr = [3, 5, 9, 100, 0];
+// function newArr(arr2){
+//     return Math.max(...arr2);
+// }
+// console.log(newArr(arr)); 
+
+// 5. Написать функцию, которая принимает два числа и возвращает первое число, возведенное в степень сторого числа
+// function func(a, b) {
+//     value = a ** b;
+//     return value;    
+// }
+// console.log(func(3, 4));
+
+// 6. Написать функцию, которая принимает два массива и возвращает один массив, созданный из двух переданных
+// const arr1 = [2, 4, 6, 8];
+// const arr2 = [1, 3, 5, 7];
+// function arrNew(array1, array2) {
+//     return [...array1, ...array2];
+// }
+// console.log(arrNew(arr1, arr2));
+
+// 7. Напишите стрелочную функцию, которая принимает массив чисел и возвращает новый массив, содержащий 
+// только положительные чётные числа.
+// const arr = [3, 5, -36, 9, 0, -24, 100];
+// function newArray(array){
+//     return array.filter(element => element > 0);
+// }
+// console.log(newArray(arr));
+
+// 8. Напишите стрелочную функцию, которая принимает две строки и возвращает самую длинную
+// const longerString = (str1, str2) => str1.length > str2.length ? str1 : str2;
+// console.log(longerString("mama", "katerina"));
+
+// 9. Напишите стрелочную функцию, которая принимает строку и возвращает её с первой буквой в верхнем регистре.
+// const a = "camel"
+// function camel(str){
+//     return str.charAt(0).toUpperCase()+str.slice(1); //slice(1) — возвращает оставшуюся часть строки, начиная с второго символа
+// }    
+// console.log(camel(a));
