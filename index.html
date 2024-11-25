@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./js/script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body> 
+  <form action="#" method="post" enctype="multipart/form-data" id="form-contakt">
+    <div>
+      <label>
+        Имя
+        <input tabindex="1" type="text" placeholder="Введите Ваше имя">
+      </label>      
+    </div>
+
+    <div>
+      <label>
+       Фамилия
+        <input tabindex="2" type="text" placeholder="Введите Вашу фамилию">
+      </label>   
+    </div>
+
+    <div>
+      <label>
+        Телефон
+        <input tabindex="3" type="tel" placeholder="Введите Ваш телефон">
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Пароль
+        <input tabindex="4" required type="password" name="password" placeholder="Введите Ваш пароль"/>
+      </label>
+    </div>
+    <br>
+      <p>Ваш пол:</p>
+      <div>
+        <input tabindex="5" id="gen" type="radio" name="gender" value="male" />
+        <label for="age1">Мужской</label>
+      </div>
+
+      <div>
+        <input tabindex="5" checked id="gen" type="radio" name="gender" value="female" />
+        <label for="age2">Женский</label>
+      </div>
+       <br>     
+      <p>Имущество</p>
+      <div>
+        <div>
+          <input tabindex="6" checked type="checkbox" name="bike" value="yes" />
+          <label for="bike">Велосипед</label>
+        </div>
+        <div>
+          <input tabindex="7" type="checkbox" name="car" value="yes" />
+          <label for="car">Машина</label>
+        </div>
+        <div>
+          <input tabindex="8" disabled type="checkbox" name="house" value="yes" />
+          <label for="house">Квартира</label>
+        </div>
+      </div>
+  
+        <div>
+          <p>Дополнительная информация:</p>
+          <textarea tabindex="9" name="text" id="" cols="10" rows="5"></textarea>
+        </div>
+
+        <div>
+          <p>Прикрепить фото</p>
+          <input tabindex="10" type="file">
+        </div>
+
+        <div>
+          <p>Любимый цвет:</p>
+          <select tabindex="11" name="color">
+            <option value="yellow">Желтый</option>
+            <option selected value="red">Красный</option>
+            <option value="green">Зеленый</option>
+          </select>
+        </div>
+
+        <div>
+          <p>Действия</p>
+          <button tabindex="12" type="submit">Отправить</button>
+          <button tabindex="13" type="submit">Очистить</button>
+        </div>
+
+  </form>  
+    
+</body>
+</html>
